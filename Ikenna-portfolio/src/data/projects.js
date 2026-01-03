@@ -1,7 +1,7 @@
 import tvShowsImg from "../assets/images/tv-show.png"
 import spacedImg from "../assets/images/spaced-repetition.png"
 import calendarImg from "../assets/images/calendar-app.png"
-import bookmarkImg from "../assets/images/shared-bookmarked.png"
+import bookmarkImg from "../assets/images/shared-bookmark.png"
 import graceImg from "../assets/images/grace-assembly.png"
 
 export const projects = [
