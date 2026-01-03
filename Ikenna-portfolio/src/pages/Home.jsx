@@ -23,9 +23,9 @@ export default function Home() {
         <p className="muted">
           Based in the UK, Open to junior frontend opportunities
         </p>
-        <div className="hero__imageWrap">
+        <div className="hero_imageWrap">
           <img
-            className="hero__image"
+            className="hero_image"
             src={profileImg}
             alt="Portrait placeholder"
           />

@@ -186,25 +186,25 @@ section{
   grid-template-columns: 1fr;
 }
 
-.hero__title {
+.hero_title {
   margin: 0;
   font-size: 2rem;
   line-height: 1.15;
 }
 
-.hero__actions {
+.hero_actions {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
   margin: 18px 0 10px;
 }
 
-.hero__imageWrap {
+.hero_imageWrap {
   display: flex;
   justify-content: center;
 }
 
-.hero__image {
+.hero_image {
   width: min(340px, 90%);
   border-radius: 18px;
   border: 1px solid #eee;
@@ -221,5 +221,23 @@ section{
   .hero_title{
     font-size: 2.4rem;
   }
+}
 
+/* =====social link styles===== */
+
+.footer_socials {
+  display: flex;
+  gap: 14px;
+}
+
+.social-link {
+  color: #111;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-link:hover {
+  opacity: 0.7;
 }
