@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function About() {
   return (
     <section className="container">
@@ -27,7 +28,21 @@ export default function About() {
             <li>Improving accessibility and responsive layout skills</li>
           </ul>
         </div>
-        
+      </div>
+
+      <div className="callout">
+        <h2 className="h2">Highlights</h2>
+        <ul className="clean-list">
+          <li>Built multiple Vanilla JavaScript projects (APIs, forms, date logic)</li>
+          <li>Delivered a live React website for a charity organization</li>
+          <li>Comfortable collaborating and working as part of a team</li>
+        </ul>
+      </div>
+
+      <div className="callout_actions">
+        <Link className="btn" to="/projects">
+          View projects
+        </Link>
       </div>
     </section>
   );
