@@ -33,7 +33,9 @@ export default function About() {
       <div className="callout">
         <h2 className="h2">Highlights</h2>
         <ul className="clean-list">
-          <li>Built multiple Vanilla JavaScript projects (APIs, forms, date logic)</li>
+          <li>
+            Built multiple Vanilla JavaScript projects (APIs, forms, date logic)
+          </li>
           <li>Delivered a live React website for a charity organization</li>
           <li>Comfortable collaborating and working as part of a team</li>
         </ul>
@@ -43,6 +45,14 @@ export default function About() {
         <Link className="btn" to="/projects">
           View projects
         </Link>
+        <a
+          className="btn btn--ghost"
+          href="/cv/Ike-Agu-CV.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Download CV
+        </a>
       </div>
     </section>
   );
